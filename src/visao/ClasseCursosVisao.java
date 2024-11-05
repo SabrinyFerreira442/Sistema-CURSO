@@ -17,7 +17,7 @@ public class ClasseCursosVisao {
     }
 
     public void ExibirCursosPresenciais() {
-        ArrayList<ModulosPresenciais> lista = this.srvPresenciais.Navegar(); // Ajuste aqui
+        ArrayList<ModulosPresenciais> lista = this.srvPresenciais.Navegar(); 
         System.out.println("===========================================================");
         for (ModulosPresenciais curso : lista) {
             this.Imprimir(curso);
@@ -25,7 +25,7 @@ public class ClasseCursosVisao {
     }
 
     public void ExibirCursosOnline() {
-        ArrayList<ModulosOnline> lista = this.srvOnline.Navegar(); // Ajuste aqui
+        ArrayList<ModulosOnline> lista = this.srvOnline.Navegar(); 
         System.out.println("===========================================================");
         for (ModulosOnline curso : lista) {
             this.Imprimir(curso);
