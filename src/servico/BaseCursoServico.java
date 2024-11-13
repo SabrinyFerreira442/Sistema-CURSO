@@ -10,10 +10,10 @@ public abstract class BaseCursoServico<TDominio> {
     //Read: Irá ler um curso específico
     public abstract TDominio Ler(int chave);
 
-    //Edit: Mudará um curso específico
+    //Edit: Atualizará um curso específico
     public abstract TDominio Editar(int chave, TDominio obj);
 
-    //Create: Mudrá um curso por vez
+    //Create: Mudará um curso por vez
     public abstract TDominio Adicionar(TDominio obj);
 
     //Delete: Excluirá um curso específico
